@@ -1,0 +1,41 @@
+.table-cells{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin:10px;
+    display: inline-block;
+}
+
+.image-class{
+    height: 200px;
+    width: 180px;
+}
+
+.add-to-cart{
+    margin-left: 20%;
+}
+
+.product-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-price {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.login {
+    float: right;
+    position: relative;
+    top: -100px;
+}
+.container{
+    background-color: rgb(234, 244, 245);
+}

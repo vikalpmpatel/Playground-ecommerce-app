@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="text">
+      <h1>Cart</h1>
+    </div>
+    <button class="login btn btn-primary" [routerLink]="['/home']">Home</button>
+    <div *ngIf="cartStatus" class="cartStatus">{{cartStatus}}</div>
+    <div class="table-cells" *ngFor="let item of cart"><img class="image-class" [src]="item.imgUrl"> <div class="product-name">Product Name: {{item.name}}</div><div  class="product-price">Price: ${{item.price}}</div><button class="add-to-cart btn btn-danger" (click)="onDelete(item.id)">Delete</button></div>
+    <button *ngIf="!cartStatus" class="add-to-cart btn btn-success" (click)="onCheckout()">Checkout ${{cartPrice}}</button>
+    </div>

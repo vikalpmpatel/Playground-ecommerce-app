@@ -1,0 +1,56 @@
+.table-cells{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin:10px;
+    display: block;
+}
+
+.image-class{
+    height: 120px;
+    width: 100px;
+    display: inline-block;
+}
+
+.add-to-cart{
+    margin-top: 50px;
+    position: absolute;
+    right: 200px;
+}
+
+.product-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.product-price {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.text {
+    text-align: center;
+}
+
+.login {
+    float: right;
+    position: relative;
+    top: -100px;
+}
+
+.cartStatus{
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 5px;
+    margin:10px;
+    display: inline;
+    padding: 10px;
+}
+
+.container{
+    background-color: rgb(243, 239, 225);
+    min-height: 200px;
+}
